@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FF5E0921EA99655007C32C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0911EA99655007C32C7 /* AppDelegate.swift */; };
+		8FF5E0941EA99655007C32C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0931EA99655007C32C7 /* ViewController.swift */; };
+		8FF5E0971EA99655007C32C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5E0951EA99655007C32C7 /* Main.storyboard */; };
+		8FF5E09A1EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0981EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodeld */; };
+		8FF5E09C1EA99655007C32C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5E09B1EA99655007C32C7 /* Assets.xcassets */; };
+		8FF5E09F1EA99655007C32C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5E09D1EA99655007C32C7 /* LaunchScreen.storyboard */; };
+		8FF5E0AA1EA99656007C32C7 /* NAC1_iOS_PizzariaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0A91EA99656007C32C7 /* NAC1_iOS_PizzariaTests.swift */; };
+		8FF5E0B51EA99656007C32C7 /* NAC1_iOS_PizzariaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0B41EA99656007C32C7 /* NAC1_iOS_PizzariaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FF5E0A61EA99656007C32C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF5E0861EA99655007C32C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FF5E08D1EA99655007C32C7;
+			remoteInfo = "NAC1-iOS-Pizzaria";
+		};
+		8FF5E0B11EA99656007C32C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF5E0861EA99655007C32C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FF5E08D1EA99655007C32C7;
+			remoteInfo = "NAC1-iOS-Pizzaria";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FF5E08E1EA99655007C32C7 /* NAC1-iOS-Pizzaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NAC1-iOS-Pizzaria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF5E0911EA99655007C32C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FF5E0931EA99655007C32C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FF5E0961EA99655007C32C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FF5E0991EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NAC1_iOS_Pizzaria.xcdatamodel; sourceTree = "<group>"; };
+		8FF5E09B1EA99655007C32C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FF5E09E1EA99655007C32C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FF5E0A01EA99655007C32C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF5E0A51EA99656007C32C7 /* NAC1-iOS-PizzariaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NAC1-iOS-PizzariaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF5E0A91EA99656007C32C7 /* NAC1_iOS_PizzariaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAC1_iOS_PizzariaTests.swift; sourceTree = "<group>"; };
+		8FF5E0AB1EA99656007C32C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF5E0B01EA99656007C32C7 /* NAC1-iOS-PizzariaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NAC1-iOS-PizzariaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF5E0B41EA99656007C32C7 /* NAC1_iOS_PizzariaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAC1_iOS_PizzariaUITests.swift; sourceTree = "<group>"; };
+		8FF5E0B61EA99656007C32C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FF5E08B1EA99655007C32C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF5E0A21EA99656007C32C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF5E0AD1EA99656007C32C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FF5E0851EA99655007C32C7 = {
+			isa = PBXGroup;
+			children = (
+				8FF5E0901EA99655007C32C7 /* NAC1-iOS-Pizzaria */,
+				8FF5E0A81EA99656007C32C7 /* NAC1-iOS-PizzariaTests */,
+				8FF5E0B31EA99656007C32C7 /* NAC1-iOS-PizzariaUITests */,
+				8FF5E08F1EA99655007C32C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FF5E08F1EA99655007C32C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5E08E1EA99655007C32C7 /* NAC1-iOS-Pizzaria.app */,
+				8FF5E0A51EA99656007C32C7 /* NAC1-iOS-PizzariaTests.xctest */,
+				8FF5E0B01EA99656007C32C7 /* NAC1-iOS-PizzariaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FF5E0901EA99655007C32C7 /* NAC1-iOS-Pizzaria */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5E0911EA99655007C32C7 /* AppDelegate.swift */,
+				8FF5E0931EA99655007C32C7 /* ViewController.swift */,
+				8FF5E0951EA99655007C32C7 /* Main.storyboard */,
+				8FF5E09B1EA99655007C32C7 /* Assets.xcassets */,
+				8FF5E09D1EA99655007C32C7 /* LaunchScreen.storyboard */,
+				8FF5E0A01EA99655007C32C7 /* Info.plist */,
+				8FF5E0981EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodeld */,
+			);
+			path = "NAC1-iOS-Pizzaria";
+			sourceTree = "<group>";
+		};
+		8FF5E0A81EA99656007C32C7 /* NAC1-iOS-PizzariaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5E0A91EA99656007C32C7 /* NAC1_iOS_PizzariaTests.swift */,
+				8FF5E0AB1EA99656007C32C7 /* Info.plist */,
+			);
+			path = "NAC1-iOS-PizzariaTests";
+			sourceTree = "<group>";
+		};
+		8FF5E0B31EA99656007C32C7 /* NAC1-iOS-PizzariaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5E0B41EA99656007C32C7 /* NAC1_iOS_PizzariaUITests.swift */,
+				8FF5E0B61EA99656007C32C7 /* Info.plist */,
+			);
+			path = "NAC1-iOS-PizzariaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FF5E08D1EA99655007C32C7 /* NAC1-iOS-Pizzaria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF5E0B91EA99656007C32C7 /* Build configuration list for PBXNativeTarget "NAC1-iOS-Pizzaria" */;
+			buildPhases = (
+				8FF5E08A1EA99655007C32C7 /* Sources */,
+				8FF5E08B1EA99655007C32C7 /* Frameworks */,
+				8FF5E08C1EA99655007C32C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NAC1-iOS-Pizzaria";
+			productName = "NAC1-iOS-Pizzaria";
+			productReference = 8FF5E08E1EA99655007C32C7 /* NAC1-iOS-Pizzaria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FF5E0A41EA99656007C32C7 /* NAC1-iOS-PizzariaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF5E0BC1EA99656007C32C7 /* Build configuration list for PBXNativeTarget "NAC1-iOS-PizzariaTests" */;
+			buildPhases = (
+				8FF5E0A11EA99656007C32C7 /* Sources */,
+				8FF5E0A21EA99656007C32C7 /* Frameworks */,
+				8FF5E0A31EA99656007C32C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FF5E0A71EA99656007C32C7 /* PBXTargetDependency */,
+			);
+			name = "NAC1-iOS-PizzariaTests";
+			productName = "NAC1-iOS-PizzariaTests";
+			productReference = 8FF5E0A51EA99656007C32C7 /* NAC1-iOS-PizzariaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FF5E0AF1EA99656007C32C7 /* NAC1-iOS-PizzariaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF5E0BF1EA99656007C32C7 /* Build configuration list for PBXNativeTarget "NAC1-iOS-PizzariaUITests" */;
+			buildPhases = (
+				8FF5E0AC1EA99656007C32C7 /* Sources */,
+				8FF5E0AD1EA99656007C32C7 /* Frameworks */,
+				8FF5E0AE1EA99656007C32C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FF5E0B21EA99656007C32C7 /* PBXTargetDependency */,
+			);
+			name = "NAC1-iOS-PizzariaUITests";
+			productName = "NAC1-iOS-PizzariaUITests";
+			productReference = 8FF5E0B01EA99656007C32C7 /* NAC1-iOS-PizzariaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FF5E0861EA99655007C32C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ricardo Santos Filho";
+				TargetAttributes = {
+					8FF5E08D1EA99655007C32C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8FF5E0A41EA99656007C32C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FF5E08D1EA99655007C32C7;
+					};
+					8FF5E0AF1EA99656007C32C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FF5E08D1EA99655007C32C7;
+					};
+				};
+			};
+			buildConfigurationList = 8FF5E0891EA99655007C32C7 /* Build configuration list for PBXProject "NAC1-iOS-Pizzaria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FF5E0851EA99655007C32C7;
+			productRefGroup = 8FF5E08F1EA99655007C32C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FF5E08D1EA99655007C32C7 /* NAC1-iOS-Pizzaria */,
+				8FF5E0A41EA99656007C32C7 /* NAC1-iOS-PizzariaTests */,
+				8FF5E0AF1EA99656007C32C7 /* NAC1-iOS-PizzariaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FF5E08C1EA99655007C32C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF5E09F1EA99655007C32C7 /* LaunchScreen.storyboard in Resources */,
+				8FF5E09C1EA99655007C32C7 /* Assets.xcassets in Resources */,
+				8FF5E0971EA99655007C32C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF5E0A31EA99656007C32C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF5E0AE1EA99656007C32C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FF5E08A1EA99655007C32C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF5E0941EA99655007C32C7 /* ViewController.swift in Sources */,
+				8FF5E09A1EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodeld in Sources */,
+				8FF5E0921EA99655007C32C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF5E0A11EA99656007C32C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF5E0AA1EA99656007C32C7 /* NAC1_iOS_PizzariaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF5E0AC1EA99656007C32C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF5E0B51EA99656007C32C7 /* NAC1_iOS_PizzariaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FF5E0A71EA99656007C32C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FF5E08D1EA99655007C32C7 /* NAC1-iOS-Pizzaria */;
+			targetProxy = 8FF5E0A61EA99656007C32C7 /* PBXContainerItemProxy */;
+		};
+		8FF5E0B21EA99656007C32C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FF5E08D1EA99655007C32C7 /* NAC1-iOS-Pizzaria */;
+			targetProxy = 8FF5E0B11EA99656007C32C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FF5E0951EA99655007C32C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF5E0961EA99655007C32C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FF5E09D1EA99655007C32C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF5E09E1EA99655007C32C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FF5E0B71EA99656007C32C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FF5E0B81EA99656007C32C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FF5E0BA1EA99656007C32C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NAC1-iOS-Pizzaria/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.com.br.NAC1-iOS-Pizzaria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8FF5E0BB1EA99656007C32C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NAC1-iOS-Pizzaria/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.com.br.NAC1-iOS-Pizzaria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8FF5E0BD1EA99656007C32C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NAC1-iOS-PizzariaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.com.br.NAC1-iOS-PizzariaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAC1-iOS-Pizzaria.app/NAC1-iOS-Pizzaria";
+			};
+			name = Debug;
+		};
+		8FF5E0BE1EA99656007C32C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NAC1-iOS-PizzariaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.com.br.NAC1-iOS-PizzariaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAC1-iOS-Pizzaria.app/NAC1-iOS-Pizzaria";
+			};
+			name = Release;
+		};
+		8FF5E0C01EA99656007C32C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NAC1-iOS-PizzariaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.com.br.NAC1-iOS-PizzariaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NAC1-iOS-Pizzaria";
+			};
+			name = Debug;
+		};
+		8FF5E0C11EA99656007C32C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NAC1-iOS-PizzariaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.com.br.NAC1-iOS-PizzariaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NAC1-iOS-Pizzaria";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FF5E0891EA99655007C32C7 /* Build configuration list for PBXProject "NAC1-iOS-Pizzaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF5E0B71EA99656007C32C7 /* Debug */,
+				8FF5E0B81EA99656007C32C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF5E0B91EA99656007C32C7 /* Build configuration list for PBXNativeTarget "NAC1-iOS-Pizzaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF5E0BA1EA99656007C32C7 /* Debug */,
+				8FF5E0BB1EA99656007C32C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FF5E0BC1EA99656007C32C7 /* Build configuration list for PBXNativeTarget "NAC1-iOS-PizzariaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF5E0BD1EA99656007C32C7 /* Debug */,
+				8FF5E0BE1EA99656007C32C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FF5E0BF1EA99656007C32C7 /* Build configuration list for PBXNativeTarget "NAC1-iOS-PizzariaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF5E0C01EA99656007C32C7 /* Debug */,
+				8FF5E0C11EA99656007C32C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FF5E0981EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FF5E0991EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodel */,
+			);
+			currentVersion = 8FF5E0991EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodel */;
+			path = NAC1_iOS_Pizzaria.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FF5E0861EA99655007C32C7 /* Project object */;
+}
