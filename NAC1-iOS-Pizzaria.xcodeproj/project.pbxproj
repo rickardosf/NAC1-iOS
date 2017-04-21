@@ -15,6 +15,9 @@
 		8FF5E09F1EA99655007C32C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5E09D1EA99655007C32C7 /* LaunchScreen.storyboard */; };
 		8FF5E0AA1EA99656007C32C7 /* NAC1_iOS_PizzariaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0A91EA99656007C32C7 /* NAC1_iOS_PizzariaTests.swift */; };
 		8FF5E0B51EA99656007C32C7 /* NAC1_iOS_PizzariaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0B41EA99656007C32C7 /* NAC1_iOS_PizzariaUITests.swift */; };
+		8FF5E0C31EA99B1F007C32C7 /* PizzasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0C21EA99B1F007C32C7 /* PizzasViewController.swift */; };
+		8FF5E0C51EA99B5C007C32C7 /* RefriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0C41EA99B5C007C32C7 /* RefriViewController.swift */; };
+		8FF5E0C71EA99BFA007C32C7 /* PizzaDoceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5E0C61EA99BFA007C32C7 /* PizzaDoceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8FF5E0B01EA99656007C32C7 /* NAC1-iOS-PizzariaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NAC1-iOS-PizzariaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF5E0B41EA99656007C32C7 /* NAC1_iOS_PizzariaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAC1_iOS_PizzariaUITests.swift; sourceTree = "<group>"; };
 		8FF5E0B61EA99656007C32C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF5E0C21EA99B1F007C32C7 /* PizzasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzasViewController.swift; sourceTree = "<group>"; };
+		8FF5E0C41EA99B5C007C32C7 /* RefriViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefriViewController.swift; sourceTree = "<group>"; };
+		8FF5E0C61EA99BFA007C32C7 /* PizzaDoceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDoceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				8FF5E09D1EA99655007C32C7 /* LaunchScreen.storyboard */,
 				8FF5E0A01EA99655007C32C7 /* Info.plist */,
 				8FF5E0981EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodeld */,
+				8FF5E0C21EA99B1F007C32C7 /* PizzasViewController.swift */,
+				8FF5E0C41EA99B5C007C32C7 /* RefriViewController.swift */,
+				8FF5E0C61EA99BFA007C32C7 /* PizzaDoceViewController.swift */,
 			);
 			path = "NAC1-iOS-Pizzaria";
 			sourceTree = "<group>";
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF5E0C71EA99BFA007C32C7 /* PizzaDoceViewController.swift in Sources */,
 				8FF5E0941EA99655007C32C7 /* ViewController.swift in Sources */,
+				8FF5E0C31EA99B1F007C32C7 /* PizzasViewController.swift in Sources */,
 				8FF5E09A1EA99655007C32C7 /* NAC1_iOS_Pizzaria.xcdatamodeld in Sources */,
 				8FF5E0921EA99655007C32C7 /* AppDelegate.swift in Sources */,
+				8FF5E0C51EA99B5C007C32C7 /* RefriViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func onTap(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: "PizzaSalgadaSegue", sender: nil)
+    }
 
-
+    @IBAction func onTapDoce(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: "PizzaDoceSegue", sender: nil)
+    }
+    @IBAction func onTapRefri(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: "RefriSegue", sender: nil)
+    }
 }
 
